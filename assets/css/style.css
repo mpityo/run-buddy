@@ -76,6 +76,10 @@
 .secondary-border {
     border-color: #39a6b2;
 }
+.tritary-border {
+    border-color: #39a6b2;
+    color:#fce138;
+}
 .text-left {
     text-align: left;
 }
@@ -155,6 +159,19 @@
     line-height: 1.3;
 }
 /* Trainers End */
+/* Reach Out Start */
+.reach-out {
+    text-align: center;
+    background: #024e76;
+}
+.contact-info p {
+    color: white;
+}
+.reach-out h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* Reach Out End */
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
