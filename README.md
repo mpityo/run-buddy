@@ -12,3 +12,5 @@ https://mpityo.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Matt P.
+
+# Run Buddy Inc.
