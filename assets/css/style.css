@@ -229,13 +229,23 @@ header a {
 header nav {
     margin: 7px 0;
 }
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content aligns the x-axis by default */
+    justify-content: space-between;
+    /* align-items aligns the y-axis by default */
+    align-items: center;
+    /* removes all stylings from the list items (no bullter points, indented, etc) */
+    list-style: none;
 }
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    /* vw is viewpoint width
+     * Says the font size should be 1.55% of the windows overall width 
+     */
+    font-size: 1.55vw;
 }
 
 footer {
