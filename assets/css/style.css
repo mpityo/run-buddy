@@ -118,9 +118,43 @@
 .steps {
     background: #fce138;
 }
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.step-info {
+    /* 
+     * at least 70% wide but will recieve any extra space at a 2-to-1 ratio 
+     * This means that it will receieve two more units of unused space than a sibiling w/flex-grow value of 1
+     */
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .step h3 {
     color: #024e76;
     font-size: 46px;
+    /* at least 30% wide and will recieve any extra space in the container */
+    flex: 1 30%;
+}
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.step-img img {
+    /* limits the width to whatever the container is. Only a problem in microsoft edge */
+    max-width: 100%;
+}
+.step-text {
+    /* this will be alloted 12x more unused space than step-img */
+    flex: 12;
 }
 .step-text p {
     color: #39a6b2;
