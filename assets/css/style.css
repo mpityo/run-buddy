@@ -75,6 +75,11 @@
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.form-input:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 .hero-form label {
     margin: 0 5px;
@@ -88,6 +93,9 @@
     margin: 10px 0;
     border-radius: 10px;
     display: block;
+}
+.hero-form button:hover {
+    background-color: #39a6b2;
 }
 /* Hero-Form Style End */
 /* Call To Action Start */
@@ -253,6 +261,12 @@
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.contact-form:focus,
+.contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 .contact-form button {
     width: 100%;
@@ -263,6 +277,10 @@
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+}
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
 }
 /* Reach Out End */
 /* Privacy Policy Start */
@@ -330,6 +348,12 @@ header nav ul li a {
      */
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
 }
 /* Header End */
 /* Footer Start */
